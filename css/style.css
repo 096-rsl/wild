@@ -1,0 +1,277 @@
+/*this is a restaurent wabsite:
+
+author name: rushd
+*/
+
+/*::global css::*/
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+h1{
+	color: #fff;
+
+}
+h2{
+	color: #fff;
+	font-size: 22px;
+}
+h3{
+	text-align: center;
+	margin-bottom: 70px;
+}
+p{
+	color: #161616;
+	font-size: 16px;
+}
+
+
+h6{
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/*::theme css::*/
+
+/*header section starts*/
+.nav-head{
+	background-color: #EDEFF1 !important;
+	padding: 35px 0px;
+}
+.nav-item{
+	margin: 0px 5px;
+}
+.nav-link{
+	color: #40444C !important;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #DD4B2B;
+	color: #fff !important;
+	border-radius: 25px;
+	padding: 8px 30px;
+}
+.fa.fa-home{
+	padding: 10px;
+	background-color: #9999FF;
+	color: #C0C0C0;
+	border-radius: 10px;
+}
+
+/*header section ends*/
+
+/*hero section*/
+.hero{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+}
+.hero-title{
+	text-align: center;
+	padding-top: 250px;
+	padding-bottom: 30px;
+}
+.food-item{
+	text-align: center;
+}
+
+.btn{
+	color: #612316;
+	background-color: #fff;
+	padding:6px 30px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto;
+	border:none;
+	
+}
+
+/*our news section*/
+.our-news{
+	background-color: #edeff1;
+
+}
+.food-item-two{
+	text-align: center;
+
+}
+.btnTwo{
+	color: black;
+	background-color: #fff;
+	border-radius: 20px;
+	border:none;
+	display: block;
+	margin: 5px auto;
+	padding: 6px 25px;
+	
+
+}
+
+/*email-contact*/
+.email-contact{
+	background: url(../img/footer.png) no-repeat;
+	background-size: cover;
+
+
+}
+
+.form-control{
+	border-radius: 30px;
+	border:none;
+	padding: 20px;
+	background-color: #E5CCFF;
+	margin-top: 30px;
+	position: relative;
+}
+.btnThree{
+	background-color: #999900;
+	padding: 8px 35px;
+	border-radius: 25px;
+	border:none;
+	color: darkred;
+	position: absolute;
+	top: 102px;
+	right: 0px; 
+}
+input::placeholder{
+	color:#fff !important;
+}
+
+/*2nd last section*/
+.move{
+	margin-bottom: 50px;
+}
+.btnFour{
+	background-color: #dd4b2b;
+	padding: 6px 30px;
+	border-radius: 25px;
+	border:none;
+	color:#fff;
+	
+	
+}
+.btnFive{
+	background-color: #4b4e73;
+	padding: 6px 30px;
+	border-radius: 25px;
+	border:none;
+	color:#fff;
+}
+
+/*last section*/
+.last{
+	background-color: #d75d0e;
+}
+.lastRow ul li{
+	list-style: none;
+	text-align: center;
+}
+.footerClass{
+	background-image: url(../img/footer.png) no-repeat;
+	background-size: cover;
+}
+/*.lastImg{
+	opacity: .6;
+}*/
+
+/*mobile divice starts*/
+
+@media(min-width:0px)and (max-width: 500px){
+	h1{
+		font-size: 20px;
+		padding: 5px;
+	}
+	h2{
+		font-size: 15px;
+		padding: 5px;
+	}
+	h3{
+		font-size: 20px;
+		padding:5px;
+	}
+	h6{
+		font-size: 10px;
+		padding: 5px;
+	}
+	.mobileFst{
+		width: 100px;
+		height: 100px;
+	}
+	.loremP{
+		font-size: 10px;
+		margin-top: 5px;
+	}
+	.loremPic{
+		width: 300px;
+		height: 200px;
+	}
+	.loremH{
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.btnTwo{
+		margin-top: 5px;
+		margin-bottom: 50px;
+	}
+	.form-control{
+		border-radius: 20px;
+		border:none;
+		padding: 10px;
+		background-color: #E5CCFF;
+		margin-top: 15px;
+		position: relative;
+	}
+	.btnThree{
+		background-color: #999900;
+		padding: 7px 40px;
+		border-radius: 20px;
+		border:none;
+		color: darkred;
+		position: absolute;
+		top: 69.5%;
+		right: 15px; 
+	}
+	.JucyH{
+		margin: 5px;
+	}
+	.juicyBurger{
+		font-size: 10px;
+	}
+	.JucyBurgerPic{
+		width: 510px;
+		height: 340px;
+	}
+	.btnFour{
+		background-color: #dd4b2b;
+		padding: 4px 25px;
+		border-radius: 20px;
+		border:none;
+		color:#fff;
+		margin-bottom: 30px;
+		
+		
+	}
+	.btnFive{
+		background-color: #4b4e73;
+		padding: 4px 25px;
+		border-radius: 20px;
+		border:none;
+		color:#fff;
+		margin-top: 30px;
+	}
+	.lastRow{
+
+		padding: 30px;
+	}
+	/*footer{
+		background: url(../img/footer.png) no-repeat;
+		background-size: cover;
+	}*/
+	}
+
+	/*mobile divice ends*/
